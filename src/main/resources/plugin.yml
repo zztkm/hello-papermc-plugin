@@ -1,0 +1,5 @@
+name: helloworld
+version: '1.0-SNAPSHOT'
+main: dev.veltiosoft.helloworld.Helloworld
+api-version: '1.21'
+description: helloworld
