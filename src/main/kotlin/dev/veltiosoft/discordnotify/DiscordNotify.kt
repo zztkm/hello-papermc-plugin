@@ -1,4 +1,4 @@
-package dev.veltiosoft.helloworld
+package dev.veltiosoft.discordnotify
 
 import org.bukkit.Bukkit
 import org.bukkit.event.EventHandler
@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter
 import java.net.HttpURLConnection
 import java.net.URI
 
-class Helloworld : JavaPlugin(), Listener {
+class DiscordNotify : JavaPlugin(), Listener {
 
     private var discordWebhookUrl: String = ""
 
@@ -24,7 +24,6 @@ class Helloworld : JavaPlugin(), Listener {
 
     @EventHandler
     fun onPlayerJoin(event: org.bukkit.event.player.PlayerJoinEvent) {
-        event.player.sendMessage("[helloworld] Hello, ${event.player.name}")
         sendDiscordMessage("Player ${event.player.name} has joined the server")
     }
 

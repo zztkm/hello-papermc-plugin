@@ -1,6 +1,6 @@
-# PaperMC plagin with Kotlin 入門
+# DiscordNotify
 
-Kotlin で PaperMC のプラグインを書く練習をするためのリポジトリです。
+Discord の Webhook を利用して PaperMC サーバーのアクティビティを Discord に通知するためのプラグインです。
 
 ## Build
 
@@ -8,7 +8,7 @@ Kotlin で PaperMC のプラグインを書く練習をするためのリポジ�
 ./gradlew build
 ```
 
-ビルドすると `build/libs` ディレクトリに `helloworld-1.0-SNAPSHOT.jar` が作成されます。
+ビルドすると `build/libs` ディレクトリに `DiscordNotify-1.0-SNAPSHOT.jar` が作成されます。
 それを PaperMC のプラグインディレクトリに格納することでプラグインを読み込ませることができます。
 
 ## 参考

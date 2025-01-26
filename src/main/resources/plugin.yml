@@ -1,5 +1,5 @@
-name: helloworld
+name: DiscordNotify
 version: '1.0-SNAPSHOT'
-main: dev.veltiosoft.helloworld.Helloworld
+main: dev.veltiosoft.discordnotify.DiscordNotify
 api-version: '1.21'
-description: helloworld
+description: Discord Notify Plugin With Discord Webhook

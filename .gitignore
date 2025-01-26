@@ -4,3 +4,6 @@
 build/
 gradle.properties
 
+# IntelliJ project files
+.idea
+
